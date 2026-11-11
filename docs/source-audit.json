@@ -1,0 +1,24 @@
+{
+  "plugin_id": "aspose.tex.java",
+  "sources": {
+    "docs": {
+      "revision": "75002cc2204be6c10093f297aa67881181603222",
+      "discovered": 60,
+      "extracted": 60,
+      "chunks": 204,
+      "symbols": 0,
+      "warnings": {}
+    },
+    "apiref": {
+      "revision": "bbfcba7dc4681ef244ab3577c6f7c041fae0f4f9",
+      "discovered": 98,
+      "extracted": 98,
+      "chunks": 643,
+      "symbols": 636,
+      "warnings": {
+        "HUGO_FRONT_MATTER_CLOSE_INLINE_CONTENT": 12
+      }
+    }
+  },
+  "errors": []
+}

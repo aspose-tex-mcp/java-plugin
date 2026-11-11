@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "profile_id": "aspose.tex.java.retrieval",
+  "version": "1.0.0",
+  "product_id": "aspose.tex",
+  "language": "java",
+  "rules": [
+    {
+      "rule_id": "latex-to-pdf",
+      "all_terms": [
+        "pdf"
+      ],
+      "any_terms": [
+        "tex",
+        "latex",
+        "ltx",
+        "typeset",
+        "convert",
+        "render"
+      ],
+      "exclude_terms": [
+        "xps",
+        "png",
+        "jpeg",
+        "jpg",
+        "svg",
+        "tiff",
+        "bmp"
+      ],
+      "preferred_symbols": [
+        "com.aspose.tex.TeXJob.run",
+        "com.aspose.tex.rendering.PdfDevice",
+        "com.aspose.tex.rendering.PdfSaveOptions"
+      ]
+    },
+    {
+      "rule_id": "latex-to-png",
+      "all_terms": [
+        "png"
+      ],
+      "exclude_terms": [
+        "formula",
+        "equation",
+        "math",
+        "figure"
+      ],
+      "preferred_symbols": [
+        "com.aspose.tex.TeXJob.run",
+        "com.aspose.tex.rendering.ImageDevice",
+        "com.aspose.tex.rendering.PngSaveOptions"
+      ]
+    },
+    {
+      "rule_id": "latex-to-image",
+      "all_terms": [
+        "image"
+      ],
+      "exclude_terms": [
+        "formula",
+        "equation",
+        "math",
+        "figure",
+        "png"
+      ],
+      "preferred_symbols": [
+        "com.aspose.tex.TeXJob.run",
+        "com.aspose.tex.rendering.ImageDevice",
+        "com.aspose.tex.rendering.ImageSaveOptions"
+      ]
+    },
+    {
+      "rule_id": "latex-to-xps",
+      "all_terms": [
+        "xps"
+      ],
+      "exclude_terms": [],
+      "preferred_symbols": [
+        "com.aspose.tex.TeXJob.run",
+        "com.aspose.tex.rendering.XpsDevice",
+        "com.aspose.tex.rendering.XpsSaveOptions"
+      ]
+    },
+    {
+      "rule_id": "latex-to-svg",
+      "all_terms": [
+        "svg"
+      ],
+      "exclude_terms": [
+        "formula",
+        "equation",
+        "math",
+        "figure"
+      ],
+      "preferred_symbols": [
+        "com.aspose.tex.TeXJob.run",
+        "com.aspose.tex.rendering.SvgDevice",
+        "com.aspose.tex.rendering.SvgSaveOptions"
+      ]
+    },
+    {
+      "rule_id": "math-rendering",
+      "all_terms": [
+        "math"
+      ],
+      "exclude_terms": [
+        "figure"
+      ],
+      "preferred_symbols": [
+        "com.aspose.tex.plugins.MathRendererPlugin",
+        "com.aspose.tex.plugins.PngMathRendererPluginOptions",
+        "com.aspose.tex.PngMathRenderer"
+      ]
+    },
+    {
+      "rule_id": "formula-rendering",
+      "all_terms": [
+        "formula"
+      ],
+      "exclude_terms": [
+        "figure"
+      ],
+      "preferred_symbols": [
+        "com.aspose.tex.plugins.MathRendererPlugin",
+        "com.aspose.tex.plugins.PngMathRendererPluginOptions",
+        "com.aspose.tex.PngMathRenderer"
+      ]
+    },
+    {
+      "rule_id": "equation-rendering",
+      "all_terms": [
+        "equation"
+      ],
+      "exclude_terms": [
+        "figure"
+      ],
+      "preferred_symbols": [
+        "com.aspose.tex.plugins.MathRendererPlugin",
+        "com.aspose.tex.plugins.PngMathRendererPluginOptions",
+        "com.aspose.tex.PngMathRenderer"
+      ]
+    },
+    {
+      "rule_id": "latex-figure-rendering",
+      "all_terms": [
+        "figure"
+      ],
+      "exclude_terms": [],
+      "preferred_symbols": [
+        "com.aspose.tex.plugins.FigureRendererPlugin",
+        "com.aspose.tex.plugins.PngFigureRendererPluginOptions",
+        "com.aspose.tex.PngFigureRenderer"
+      ]
+    },
+    {
+      "rule_id": "latex-repair",
+      "all_terms": [
+        "repair"
+      ],
+      "exclude_terms": [],
+      "preferred_symbols": [
+        "com.aspose.tex.features.LaTeXRepairer",
+        "com.aspose.tex.features.LaTeXRepairerOptions"
+      ]
+    },
+    {
+      "rule_id": "latex-repairer",
+      "all_terms": [
+        "repairer"
+      ],
+      "exclude_terms": [],
+      "preferred_symbols": [
+        "com.aspose.tex.features.LaTeXRepairer",
+        "com.aspose.tex.features.LaTeXRepairerOptions"
+      ]
+    }
+  ],
+  "excluded_namespaces": []
+}

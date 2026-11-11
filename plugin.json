@@ -1,0 +1,38 @@
+{
+  "contract": "adcs.extraction.v1",
+  "plugin_id": "aspose.tex.java",
+  "version": "0.1.0",
+  "product_id": "aspose.tex",
+  "language": "java",
+  "title": "Aspose.TeX for Java",
+  "worker": [
+    "{python}",
+    "-I",
+    "{plugin_dir}/worker.py"
+  ],
+  "sources": {
+    "docs": {
+      "repo_id": "aspose.tex.java.docs",
+      "path": "sources/documentation",
+      "prefix": "en/java",
+      "layout": {
+        "layout_type": "doc_locale/programming_language/content"
+      },
+      "canonical_base_url": "https://docs.aspose.com/tex/java",
+      "url": "https://github.com/aspose-tex-mcp/docs.git",
+      "branch": "main"
+    },
+    "apiref": {
+      "repo_id": "aspose.tex.java.apiref",
+      "path": "sources/api-reference",
+      "prefix": "english/java",
+      "layout": {
+        "layout_type": "doc_locale/programming_language/namespace"
+      },
+      "canonical_base_url": "https://reference.aspose.com/tex/java",
+      "url": "https://github.com/aspose-tex-mcp/reference.git",
+      "branch": "master"
+    }
+  },
+  "retrieval_profile": "retrieval-profile.json"
+}
